@@ -1,20 +1,19 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Hi ! Click on prepend to insert elements on top and see that, in browser, scroll position is kept whereas with ionic it scrolls to top
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
-    <ion-toolbar>
+<!--     <ion-toolbar>
       <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
+    </ion-toolbar> -->
   </ion-header>
 
   <div #container id="container">
-
+    <div class="disclaimer" #disclaimer>Hi ! Click on prepend to insert elements on top and see that, in browser, scroll position is kept whereas with ionic it is not</div>
   </div>
   <div (click) = prependDummyComponent() id="dev">
     <p>prepend</p>

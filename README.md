@@ -13,15 +13,16 @@
 3. this will init ionic capacitor for iOS
 4. this will launch Xcode
 
-5. then you will need to select your simulator (iphone 8 for example) & press run
+5. then you will need to select your simulator (iphone 8 for example) & press run to run 
 
 
-### iOS in emulator
+### iOS live in emulator & browser
 1. run npm dev:ios
 2. set up the project in Xcode
    1. set up bundle name "ionic.io.scroll" for example
    2. set up Signing & Capabilities
 3. launch app on emulator (not on device)
+4. App will be also at http://localhost:8100
 
 ### iOS on device
 1. run npm deploy:ios

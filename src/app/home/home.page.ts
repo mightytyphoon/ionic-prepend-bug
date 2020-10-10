@@ -12,6 +12,7 @@ export class HomePage implements AfterViewInit {
   @ViewChild(IonContent) ionContent: IonContent;
   @ViewChild('container') container: ElementRef<HTMLDivElement>;
   @ViewChild('container' , {read: ViewContainerRef}) containerViewContainerRef: ViewContainerRef;
+  @ViewChild('disclaimer') disclaimer: ElementRef<HTMLDivElement>;
 
   private counter: number;
 
@@ -24,7 +25,9 @@ export class HomePage implements AfterViewInit {
   ngAfterViewInit(): void{
     this.prependDummyComponent();
     this.prependDummyComponent();
-    this.ionContent.scrollToPoint(0 , 1);
+    this.ionContent.getScrollElement().then((element) => {
+      element.scrollTop = 300;
+    })
   }
 
   public prependDummyComponent(){

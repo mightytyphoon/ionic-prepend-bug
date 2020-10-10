@@ -28,7 +28,7 @@
 
 #dev{
   position: fixed;
-  top: 90px;
+  top: 50vh;
   left: 0px;
   height: 50px;
   width: 120px;
@@ -38,4 +38,13 @@
   background-color: tomato;
   cursor: pointer;
   user-select: none;
+  color: white;
+}
+
+.disclaimer{
+  font-size: 30px;
+  padding: 20px;
+  background-color: white;
+  color: black;
+  text-align: right;
 }
