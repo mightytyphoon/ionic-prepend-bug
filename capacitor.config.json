@@ -1,6 +1,6 @@
 {
-  "appId": "io.ionic.starter",
-  "appName": "blank",
+  "appId": "demo.bug.ionic.prepend",
+  "appName": "Ionic Prepend Bug",
   "bundledWebRuntime": false,
   "npmClient": "npm",
   "webDir": "www",
