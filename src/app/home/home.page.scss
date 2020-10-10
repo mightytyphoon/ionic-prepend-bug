@@ -25,3 +25,17 @@
 #container a {
   text-decoration: none;
 }
+
+#dev{
+  position: fixed;
+  top: 90px;
+  left: 0px;
+  height: 50px;
+  width: 120px;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  background-color: tomato;
+  cursor: pointer;
+  user-select: none;
+}

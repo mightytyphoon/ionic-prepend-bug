@@ -1,5 +1,5 @@
 {
-  "name": "blank",
+  "name": "ionic-prepend-bug",
   "version": "0.0.1",
   "author": "Ionic Framework",
   "homepage": "https://ionicframework.com/",
@@ -9,7 +9,10 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "postinstall": "ionic build && ionic cap add ios && ionic cap open ios",
+    "dev:ios": "ionic cap run ios -l --external",
+    "deploy:ios": "ionic cap copy && ionic cap run ios"
   },
   "private": true,
   "dependencies": {
