@@ -11,9 +11,13 @@
 1. this will install all needed dependencies
 2. this will build the app as a post install
 3. this will init ionic capacitor for iOS
-4. this will launch Xcode
+4. this will launch Xcode with livereload enabled
 
-5. then you will need to select your simulator (iphone 8 for example) & press run to run 
+5. then you will need to select your simulator in Xcode (iphone 8 for example) & press run
+
+you will be able to see it in browser here : http://localhost:8100
+
+**it will not work on a real device, for real device use npm run deploy:ios**
 
 
 ### iOS live in emulator & browser
@@ -32,5 +36,5 @@
 3. launch app on connected device
 
 ### Android
-to come
+Todo
 

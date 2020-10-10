@@ -10,7 +10,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "postinstall": "ionic build && ionic cap add ios && ionic cap open ios",
+    "postinstall": "ionic build && ionic cap add ios && ionic cap run ios -l --external",
     "dev:ios": "ionic cap run ios -l --external",
     "deploy:ios": "ionic cap copy && ionic cap run ios"
   },
