@@ -7,7 +7,17 @@
 
 ## Quick start
 
-* run npm i
+* run npm i (takes some time)
+
+1. this will install all needed dependencies
+2. this will build the app as a post install
+3. this will init ionic capacitor for iOS
+4. this will launch Xcode
+
+5. then you will need to 
+   1. set up signing & capabilities
+   2. apply the quick fixes on warning when building the app
+
 
 ### iOS in emulator
 1. run npm dev:ios
